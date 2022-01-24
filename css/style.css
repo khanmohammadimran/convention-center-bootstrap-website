@@ -25,22 +25,17 @@ h4{
     font-size: 28px;
 }
 /* Header Section  */
+.logo{
+    color: #3E3E3E;
+}
 .hero-button{
     color: #3F87F5;
-    font-weight: 700;
-    background: #ffffff;
     padding: 10px 43px;
-    border-radius: 5px;
 }
 
 /* Our Package Section  */
-.package h3, h4{
+h3, h4{
     color: #231D4F;
-    font-weight: 700;
-}
-.package-button, .speical-package-button{
-    font-size: 15px;
-    font-weight: 700;
 }
 .icon-color{
     color: #5243C2;
@@ -54,16 +49,13 @@ h4{
     border-radius: 26px;
     padding: 30px;
 }
-.special-package h3, .special-package h4, .special-package-text, li, .special-icon-color{
-    color: #ffffff;
-}
 .speical-package-button{
-    background: #ffffff;
-    border-radius: 24px;
     padding-bottom: 12px;
 }
-.badge{
-    margin-left: -40px;
+.badge {
+    margin-left: -48px;
+    margin-top: 26px;
+    z-index: 1;
 }
 
 /* Footer Section  */
@@ -81,6 +73,10 @@ h4{
         font-size: 19px;
     }
     /* Header Section  */
+    .logo{
+        font-size: 14px;
+        font-weight: 700;
+    }
     h1{
         font-size: 18px;
         font-weight: 700;
