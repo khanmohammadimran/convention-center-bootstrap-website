@@ -1,0 +1,31 @@
+/* Common Styles  */
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* Header Section  */
+.hero-button{
+    color: #3F87F5;
+    background: #ffffff;
+    padding: 10px 43px;
+    border-radius: 5px;
+}
+@media (max-width:600px){
+    h1{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .small-devices{
+        margin-top: 140px;
+        height: 205px;
+    }
+    .small-devices img{
+        height: 205px;
+    }
+    .hero-text{
+        font-weight: 300;
+    }
+}
