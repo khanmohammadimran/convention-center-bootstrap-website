@@ -6,14 +6,69 @@ body{
 a{
     text-decoration: none;
 }
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+h2{
+    color: #0A0826;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 600;
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    font-size: 28px;
+}
 /* Header Section  */
 .hero-button{
     color: #3F87F5;
+    font-weight: 700;
     background: #ffffff;
     padding: 10px 43px;
     border-radius: 5px;
 }
+
+/* Our Package Section  */
+.package h3, h4{
+    color: #231D4F;
+    font-weight: 700;
+}
+.package-button, .speical-package-button{
+    font-size: 15px;
+    font-weight: 700;
+}
+.icon-color{
+    color: #5243C2;
+}
+.our-package-text{
+    font-size: 15px;
+    color: #848199;
+}
+.special-package{
+    background: #3F87F5;
+    border-radius: 26px;
+    padding: 30px;
+}
+.special-package h3, .special-package h4, .special-package-text, li, .special-icon-color{
+    color: #ffffff;
+}
+.speical-package-button{
+    background: #ffffff;
+    border-radius: 24px;
+    padding-bottom: 12px;
+}
+.badge{
+    margin-left: -40px;
+}
+
+/* For Mobile  */
 @media (max-width:600px){
+    /* Header Section  */
     h1{
         font-size: 18px;
         font-weight: 700;
@@ -27,5 +82,17 @@ a{
     }
     .hero-text{
         font-weight: 300;
+    }
+
+    /* Our Package  */
+    .package{
+        margin-bottom: 50px;
+    }
+}
+
+/* For Desktop  */
+@media (min-width:768px){
+    .package{
+        margin-bottom: 30px;
     }
 }
