@@ -68,6 +68,10 @@ h4{
 
 /* For Mobile  */
 @media (max-width:600px){
+    /* common styles  */
+    .section-title{
+        font-size: 19px;
+    }
     /* Header Section  */
     h1{
         font-size: 18px;
@@ -90,7 +94,7 @@ h4{
     }
 }
 
-/* For Desktop  */
+/* For Tablet  */
 @media (min-width:768px){
     .package{
         margin-bottom: 30px;
