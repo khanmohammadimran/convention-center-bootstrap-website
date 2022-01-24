@@ -66,6 +66,14 @@ h4{
     margin-left: -40px;
 }
 
+/* Footer Section  */
+.footer-content{
+    background: #0B0D17;
+}
+.footer-text{
+    color: #D9DBE1;
+}
+
 /* For Mobile  */
 @media (max-width:600px){
     /* common styles  */
